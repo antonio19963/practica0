@@ -1,1 +1,17 @@
 #Primer documento  html  para github
+
+| Comandos | Definición |
+| -- | -- |
+| Git init | Para inicializar un repositorio nuevo |
+| Git status | Muestra el estado de los ficheros |
+| Git status -s| Muestra el estado de los ficheros de forma más simplificada |
+| Git add . | Para añadir el fichero al stage |
+| Git commit -m "Comentario" | Guarda todo el fichero para despues hacerle un git push y subirlo a github |
+| Git remote add origin https://github.com/username/repositoryname | Para añadir la ruta donde vamos a subir los ficheros. Solo se hace una vez |
+| Git push -u origin master | Para subir nuestro fichero ya modificado y guardado al master en github |
+| Git diff | Muestra la modificación que se ha hecho |
+| Git diff --cached | Muestra lo que se ha añadido al stage con el comando git add . Pero que aun no se ha guardado (git commit)|
+| Git log | Te muestra el log de todo lo realizado |
+| Git log --oneline | Te muestra el log en una sola línea |
+| git config --global user.name "Your Name" | Para añadir a la configuracion de git tu usuario |
+| git config --global user.email "youremail@yourdomain.com" | Para añadir el email a la configuracion de git |
